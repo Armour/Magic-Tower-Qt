@@ -81,6 +81,24 @@ Here are several main step to run the game:
 
 <br>
 
+## Some Screenshots
+---
+![start](http://www.armourcy.com/Mt_pic/1.jpg)
+
+![choose role](http://www.armourcy.com/Mt_pic/2.jpg)
+
+![1st floor](http://www.armourcy.com/Mt_pic/3.jpg)
+
+![fight](http://www.armourcy.com/Mt_pic/4.jpg)
+
+![ice floor](http://www.armourcy.com/Mt_pic/5.jpg)
+
+![trick floor](http://www.armourcy.com/Mt_pic/6.jpg)
+
+![final floor](http://www.armourcy.com/Mt_pic/7.jpg)
+
+
+
 ## Imformation
 ---
 
