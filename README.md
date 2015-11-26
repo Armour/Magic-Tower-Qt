@@ -1,11 +1,9 @@
 # Magic-Tower-Qt
 ---
 
-## Use：Qt creator 
+## How to use 
 
----
-
-Here are several main step to run the game:
+To run this game:
 
 1. Download [Qt creator](https://www.qt.io/download-open-source/#section-6)
 2. Open the MagicTower.pro
@@ -16,7 +14,7 @@ Here are several main step to run the game:
 	
 	(Ubuntu: In my computer is "{where you put your project}\build-MagicTower-Desktop-Debug")
 	
-	(Mac: In your MagicTower.app folder)
+	(Mac: In your MagicTower.app/Contents/MacOS folder)
 
 5. Run it and enjoy it~
 
