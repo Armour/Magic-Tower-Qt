@@ -104,4 +104,4 @@ To run this game:
 
 * ##### QQ:		497052684
 
-* ##### Email: 	gc497052684@gamil.com
+* ##### Email: 	armourcy@gmail.com
