@@ -1,6 +1,18 @@
 # Magic-Tower-Qt
 
----
+## Screenshots
+
+![choose role](https://user-images.githubusercontent.com/5276065/31418837-25e8d16e-aded-11e7-9f52-b1d504cb79e8.jpg)
+
+![1st floor](https://user-images.githubusercontent.com/5276065/31418838-26002062-aded-11e7-8d38-49ed9972c757.jpg)
+
+![fight](https://user-images.githubusercontent.com/5276065/31418839-262e4c3a-aded-11e7-8656-be1253a34eb0.jpg)
+
+![ice floor](https://user-images.githubusercontent.com/5276065/31418840-26457d56-aded-11e7-8e85-40989a3a6fde.jpg)
+
+![trick floor](https://user-images.githubusercontent.com/5276065/31418841-265c9c20-aded-11e7-9c80-f2122c8722f8.jpg)
+
+![final floor](https://user-images.githubusercontent.com/5276065/31418842-2677e728-aded-11e7-8f7f-b33eb412ec6b.jpg)
 
 ## How to use
 
@@ -62,20 +74,6 @@ To run this game:
 ## Time
 
 * This game may need 2-3 hours to finish (without cheat!), enjoy it in your free time~ (In the future, floors will increase to 20 or more, so it will be more fun.)
-
-## Screenshots
-
-![choose role](https://user-images.githubusercontent.com/5276065/31418837-25e8d16e-aded-11e7-9f52-b1d504cb79e8.jpg)
-
-![1st floor](https://user-images.githubusercontent.com/5276065/31418838-26002062-aded-11e7-8d38-49ed9972c757.jpg)
-
-![fight](https://user-images.githubusercontent.com/5276065/31418839-262e4c3a-aded-11e7-8656-be1253a34eb0.jpg)
-
-![ice floor](https://user-images.githubusercontent.com/5276065/31418840-26457d56-aded-11e7-8e85-40989a3a6fde.jpg)
-
-![trick floor](https://user-images.githubusercontent.com/5276065/31418841-265c9c20-aded-11e7-9c80-f2122c8722f8.jpg)
-
-![final floor](https://user-images.githubusercontent.com/5276065/31418842-2677e728-aded-11e7-8f7f-b33eb412ec6b.jpg)
 
 ## Credits
 
