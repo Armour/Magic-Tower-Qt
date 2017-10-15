@@ -4,27 +4,25 @@
 #
 #-------------------------------------------------
 
-QT       += core gui sql multimedia
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
 TARGET = MagicTower
-TEMPLATE = app
 
+CONFIG += qt debug c++11
+
+QT += sql multimedia widgets
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    cheat.cpp \
-    database.cpp \
-    myview.cpp \
-    player.cpp
+           mainwindow.cpp \
+           cheat.cpp \
+           database.cpp \
+           myview.cpp \
+           player.cpp
 
-HEADERS  += mainwindow.h \
-    cheat.h \
-    database.h \
-    equip.h \
-    key.h \
-    monster.h \
-    myview.h \
-    player.h \
-    role.h
+HEADERS += mainwindow.h \
+           cheat.h \
+           database.h \
+           equip.h \
+           key.h \
+           monster.h \
+           myview.h \
+           player.h \
+           role.h

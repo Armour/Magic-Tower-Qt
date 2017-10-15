@@ -1,0 +1,5 @@
+*.o
+*.user
+.qmake.stash
+moc_*
+MagicTower.app/

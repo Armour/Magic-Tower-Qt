@@ -1,6 +1,7 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
+#include <string>
 #include <QSqlDatabase>
 #include <QSqlDriver>
 #include <QSqlError>
@@ -13,6 +14,7 @@ class DataBase {
 public:
     DataBase();
     ~DataBase();
+    void Connect(QString dbpath);
     void SaveMap(int num);
     void LoadMap(int num);
     void SavePlayer();

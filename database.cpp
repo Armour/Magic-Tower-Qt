@@ -3,6 +3,8 @@
 #include "equip.h"
 #include "key.h"
 #include "monster.h"
+#include <QApplication>
+#include <QMessageBox>
 
 #define MAPLEN 14
 #define MAXFLOOR 10
@@ -13,21 +15,24 @@ extern Monster MyMst[13];
 extern Equip MyEqp;
 extern Key MyKey;
 
-DataBase::DataBase() {          /* Connect to MYSQL/SQLITE database */
-    db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("www.armourcy.com");
-    db.setDatabaseName("test");
-    db.setUserName("test");
-    db.setPassword("cy65x4TdsauQ572w");
-    //db.setHostName("localhost");
-    //db.setDatabaseName("test");
-    //db.setUserName("root");
-    //db.setPassword("oioioi");
-    db.open();
+DataBase::DataBase() {          /* Create to SQLITE database */
+    db = QSqlDatabase::addDatabase("QSQLITE");
 }
 
 DataBase::~DataBase() {         /* Close database */
     db.close();
+}
+
+void DataBase::Connect(QString dbpath) {         /* Connect to SQLITE database */
+    db.setDatabaseName(dbpath);
+    if (!db.open())
+    {
+        QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setText(db.lastError().text());
+        msgBox.setStandardButtons(QMessageBox::Ok);
+        msgBox.exec();
+    }
 }
 
 void DataBase::LoadMap(int num) {           /* Load map data, num = 0 for new, others for old */

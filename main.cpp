@@ -23,11 +23,16 @@ int Mode = 1;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
     /* Add BGM */
-    QSound bgm(QApplication::applicationDirPath()+ "/welcome.wav");
+    QSound bgm(a.applicationDirPath() + "/welcome.wav");
     bgm.setLoops(100);
     bgm.play();
-    /* Sorry for that there is only one BGM, because I have no time to add others */
+
+    /* Connect database */
+    Mydb.Connect(a.applicationDirPath() + "/db.sqlite");
+
+    /* Main window */
     MainWindow w;
     w.show();
     return a.exec();

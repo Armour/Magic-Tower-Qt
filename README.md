@@ -16,6 +16,8 @@
 
 ## How to use
 
+**NEWS: This game is DEPRECATED due to map data lost 😢]**
+
 To run this game:
 
 1. Download [Qt creator](https://www.qt.io/download-open-source/#section-6)
