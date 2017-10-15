@@ -35,11 +35,7 @@ To run this game:
 
 ### Ps:
 
-1. **In windows**, you might see some errors related to QMYSQL, if so, copy the two .dll file in "mysql" directory into "{where you install your Qt}\5.3\msvc2012_opengl\bin" and then rebuild.
-	
-	**In ubuntu** , just run "sudo apt-get install libqt5sql5-mysql" and then rebuild.
-
-1. If you meet "Unknown module(s) in QT: multimedia" error in ubuntu, just run "sudo apt-get install qtmultimedia5-dev" and then rebuild
+1. If you see error like "Unknown module(s) in QT: multimedia" error in ubuntu, just run "sudo apt-get install qtmultimedia5-dev" and then rebuild
 1. It may takes some time during saving and loading, so please wait 1-2 seconds :)
 
 ## Features
