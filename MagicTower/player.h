@@ -6,8 +6,8 @@
 
 class Player : public Role {
 public:
-    Player();
-    ~Player();
+    Player() {}
+    ~Player() {}
     int GetLevel() { return level; }
     int GetPosx() { return posx; }
     int GetPosy() { return posy; }
@@ -36,4 +36,4 @@ private:
     int need;
 };
 
-#endif //PLAYER_H
+#endif // PLAYER_H

@@ -1,10 +1,10 @@
-#ifndef EQUIP_H
-#define EQUIP_H
+#ifndef TOOLS_H
+#define TOOLS_H
 
-class Equip {
+class Tools {
 public:
-    //Equip();
-    //~Equip();
+    Tools() {}
+    ~Tools() {}
     int GetBook() { return book; }
     int GetShield() { return shield; }
     int GetSword() { return sword; }
@@ -18,4 +18,4 @@ private:
     int sword;
 };
 
-#endif // EQUIP_H
+#endif // TOOLS_H

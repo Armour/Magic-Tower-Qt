@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "myview.h"
+#include "view.h"
 #include "cheat.h"
 #include <QMainWindow>
 #include <QGraphicsScene>
@@ -34,8 +34,8 @@ public:
 public slots:
     void slotDrawScene();
     void slotNewGame();
-    void slotSave();
-    void slotLoad();
+    void slotSaveGame();
+    void slotLoadGame();
     void slotMovePlayerItem(int x, int y);
     void slotShop();
     void slotBook();
@@ -43,26 +43,26 @@ public slots:
     void slotEvent(QString str);
 
 private:
-    MyView *view;
+    View *view;
     QGraphicsScene *scene;
     QGraphicsPixmapItem *playerItem;
-    QAction *clearAct;
-    QAction *saveAct;
-    QAction *newAct;
-    QAction *loadAct;
-    QAction *exitAct;
-    QAction *chHpAct;
-    QAction *chAtAct;
-    QAction *chDeAct;
-    QAction *chMoAct;
-    QAction *chLeAct;
-    QAction *chYKAct;
-    QAction *chBKAct;
-    QAction *chRKAct;
-    QAction *chBoAct;
-    QAction *chSwAct;
-    QAction *chShAct;
-    QAction *chModeAct;
+    QAction *clear;
+    QAction *newGame;
+    QAction *loadGame;
+    QAction *saveGame;
+    QAction *exitGame;
+    QAction *cheatHp;
+    QAction *cheatAttack;
+    QAction *cheatDefend;
+    QAction *cheatMoney;
+    QAction *cheatLevel;
+    QAction *cheatYellowKey;
+    QAction *cheatBlueKey;
+    QAction *cheatRedKey;
+    QAction *cheatBook;
+    QAction *cheatSword;
+    QAction *cheatShield;
+    QAction *cheatMode;
     Cheat *cheats;
 };
 

@@ -8,8 +8,6 @@
 #include <QSqlRecord>
 #include <QSqlQuery>
 
-extern int Map[14][14][10];
-
 class DataBase {
 public:
     DataBase();
@@ -17,17 +15,17 @@ public:
     void Connect(QString dbpath);
     void SaveMap(int num);
     void LoadMap(int num);
+    void SaveTools(int num);
+    void LoadTools(int num);
+    void SaveKeys(int num);
+    void LoadKeys(int num);
     void SavePlayer();
     void LoadPlayer();
-    void SaveEquip(int num);
-    void LoadEquip(int num);
-    void SaveKey(int num);
-    void LoadKey(int num);
-    void LoadMonster();
+    void LoadMonsters();
 
 private:
     QString layer(int num);
     QSqlDatabase db;
 };
 
-#endif // MYDATABASE_H
+#endif // DATABASE_H

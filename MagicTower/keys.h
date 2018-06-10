@@ -1,10 +1,10 @@
-#ifndef KEY_H
-#define KEY_H
+#ifndef KEYS_H
+#define KEYS_H
 
-class Key {
+class Keys {
 public:
-    //Key();
-    //~Key();
+    Keys() {}
+    ~Keys() {}
     int GetRed() { return red; }
     int GetBlue() { return blue; }
     int GetYellow() { return yellow; }
@@ -18,4 +18,4 @@ private:
     int yellow;
 };
 
-#endif // KEY_H
+#endif // KEYS_H

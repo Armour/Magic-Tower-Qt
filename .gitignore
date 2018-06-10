@@ -1,5 +1,8 @@
+.vscode
 *.o
 *.user
 .qmake.stash
 moc_*
-MagicTower.app/
+MagicTower.app
+Makefile
+build*

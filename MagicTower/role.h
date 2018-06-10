@@ -4,14 +4,14 @@
 class Role {
 public:
     Role() {}
-    //~Role() {}
+    ~Role() {}
     int GetHp() { return hp; }
     int GetAttack() { return attack; }
     int GetDefend() { return defend; }
     int GetMoney() { return money; }
     int GetExp() { return exp; }
     int GetMiss() { return miss; }
-    int GetBow() { return bow; }
+    int GetCrit() { return crit; }
 
     void SetHp(int hp)	{ this->hp = hp; }
     void SetAttack(int attack) { this->attack = attack; }
@@ -19,7 +19,7 @@ public:
     void SetMoney(int money) { this->money = money; }
     void SetExp(int exp) { this->exp = exp; }
     void SetMiss(int miss) { this->miss = miss; }
-    void SetBow(int bow) { this->bow = bow; }
+    void SetCrit(int crit) { this->crit = crit; }
 
 private:
     int hp;
@@ -28,7 +28,7 @@ private:
     int money;
     int exp;
     int miss;
-    int bow;
+    int crit;
 };
 
-#endif //Role_H
+#endif // Role_H
