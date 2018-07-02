@@ -1,5 +1,9 @@
 # Magic-Tower-Qt
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
+
 ## Screenshots
 
 ![choose role](https://user-images.githubusercontent.com/5276065/31418837-25e8d16e-aded-11e7-9f52-b1d504cb79e8.jpg)
@@ -47,13 +51,9 @@ To run this game:
 
 * This game may need 2-3 hours to finish (without cheat!), enjoy it in your free time~ (In the future, floors will increase to 20 or more, so it will be more fun.)
 
-## Credits
+## Contributing
 
-* Code by [Armour](http://www.github.com/armour)
-
-* QQ: 497052684
-
-* Email: armourcy@gmail.com
+See [CONTRIBUTING.md](https://github.com/Armour/Magic-Tower-Qt/blob/master/.github/CONTRIBUTING.md)
 
 ## License
 
