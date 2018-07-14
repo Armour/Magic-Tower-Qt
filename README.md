@@ -4,19 +4,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
 
+Magic tower!
+
 ## Screenshots
 
-![choose role](https://user-images.githubusercontent.com/5276065/31418837-25e8d16e-aded-11e7-9f52-b1d504cb79e8.jpg)
+![choose role](images/2.jpg)
 
-![1st floor](https://user-images.githubusercontent.com/5276065/31418838-26002062-aded-11e7-8d38-49ed9972c757.jpg)
+![1st floor](images/3.jpg)
 
-![fight](https://user-images.githubusercontent.com/5276065/31418839-262e4c3a-aded-11e7-8656-be1253a34eb0.jpg)
+![fight](images/4.jpg)
 
-![ice floor](https://user-images.githubusercontent.com/5276065/31418840-26457d56-aded-11e7-8e85-40989a3a6fde.jpg)
+![ice floor](images/5.jpg)
 
-![trick floor](https://user-images.githubusercontent.com/5276065/31418841-265c9c20-aded-11e7-9c80-f2122c8722f8.jpg)
+![trick floor](images/6.jpg)
 
-![final floor](https://user-images.githubusercontent.com/5276065/31418842-2677e728-aded-11e7-8f7f-b33eb412ec6b.jpg)
+![final floor](images/7.jpg)
 
 ## How to use
 
