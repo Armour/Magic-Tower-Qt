@@ -47,11 +47,11 @@ To run this game:
 * **Help:** after start game, you can press "h" key for help.
 * **Different endings:** there are three differnt endings, wish you find a nice one :)
 
-### REMEMER! You task is to **save the pricess in the top of the tower.**
+### REMEMER! Your task is to **save the pricess in the top of the tower.**
 
 ## Time
 
-* This game may need 2-3 hours to finish (without cheat!), enjoy it in your free time~ (In the future, floors will increase to 20 or more, so it will be more fun.)
+* This game requires 2-3 hours to finish (without cheat!), enjoy it in your free time~ (In the future, floors will increase to 20 or more, so it will be more fun.)
 
 ## Contributing
 
